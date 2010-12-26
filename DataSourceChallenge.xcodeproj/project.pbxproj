@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93F03D3112624468002F1226 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F03D3012624468002F1226 /* Cocoa.framework */; };
+		93F03D3612624468002F1226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93F03D3412624468002F1226 /* InfoPlist.strings */; };
+		93F03D3812624468002F1226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F03D3712624468002F1226 /* main.m */; };
+		93F03D3B12624469002F1226 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F03D3912624469002F1226 /* MainMenu.xib */; };
+		93F03D3E12624469002F1226 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 93F03D3C12624469002F1226 /* Credits.rtf */; };
+		93F03D4112624469002F1226 /* DataSourceChallengeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F03D4012624469002F1226 /* DataSourceChallengeAppDelegate.m */; };
+		93F03D4D12624A67002F1226 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F03D4C12624A67002F1226 /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93F03D2D12624468002F1226 /* DataSourceChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSourceChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F03D3012624468002F1226 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		93F03D3212624468002F1226 /* DataSourceChallenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataSourceChallenge-Info.plist"; sourceTree = "<group>"; };
+		93F03D3312624468002F1226 /* DataSourceChallenge_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSourceChallenge_Prefix.pch; sourceTree = "<group>"; };
+		93F03D3512624468002F1226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93F03D3712624468002F1226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93F03D3A12624469002F1226 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		93F03D3D12624469002F1226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		93F03D3F12624469002F1226 /* DataSourceChallengeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSourceChallengeAppDelegate.h; sourceTree = "<group>"; };
+		93F03D4012624469002F1226 /* DataSourceChallengeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataSourceChallengeAppDelegate.m; sourceTree = "<group>"; };
+		93F03D4B12624A67002F1226 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ../AppController.h; sourceTree = "<group>"; };
+		93F03D4C12624A67002F1226 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = ../AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93F03D2A12624468002F1226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F03D3112624468002F1226 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93F03D1E12624468002F1226 = {
+			isa = PBXGroup;
+			children = (
+				93F03D2512624468002F1226 /* Classes */,
+				93F03D2612624468002F1226 /* Other Sources */,
+				93F03D2712624468002F1226 /* Resources */,
+				93F03D2812624468002F1226 /* Frameworks */,
+				93F03D2E12624468002F1226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93F03D2512624468002F1226 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				93F03D4B12624A67002F1226 /* AppController.h */,
+				93F03D4C12624A67002F1226 /* AppController.m */,
+				93F03D3F12624469002F1226 /* DataSourceChallengeAppDelegate.h */,
+				93F03D4012624469002F1226 /* DataSourceChallengeAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		93F03D2612624468002F1226 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				93F03D3312624468002F1226 /* DataSourceChallenge_Prefix.pch */,
+				93F03D3712624468002F1226 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		93F03D2712624468002F1226 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93F03D3212624468002F1226 /* DataSourceChallenge-Info.plist */,
+				93F03D3412624468002F1226 /* InfoPlist.strings */,
+				93F03D3912624469002F1226 /* MainMenu.xib */,
+				93F03D3C12624469002F1226 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		93F03D2812624468002F1226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93F03D3012624468002F1226 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93F03D2E12624468002F1226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93F03D2D12624468002F1226 /* DataSourceChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93F03D2C12624468002F1226 /* DataSourceChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F03D4412624469002F1226 /* Build configuration list for PBXNativeTarget "DataSourceChallenge" */;
+			buildPhases = (
+				93F03D2912624468002F1226 /* Sources */,
+				93F03D2A12624468002F1226 /* Frameworks */,
+				93F03D2B12624468002F1226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataSourceChallenge;
+			productName = DataSourceChallenge;
+			productReference = 93F03D2D12624468002F1226 /* DataSourceChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F03D2012624468002F1226 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 93F03D2312624468002F1226 /* Build configuration list for PBXProject "DataSourceChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93F03D1E12624468002F1226;
+			productRefGroup = 93F03D2E12624468002F1226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93F03D2C12624468002F1226 /* DataSourceChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93F03D2B12624468002F1226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F03D3612624468002F1226 /* InfoPlist.strings in Resources */,
+				93F03D3B12624469002F1226 /* MainMenu.xib in Resources */,
+				93F03D3E12624469002F1226 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93F03D2912624468002F1226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F03D3812624468002F1226 /* main.m in Sources */,
+				93F03D4112624469002F1226 /* DataSourceChallengeAppDelegate.m in Sources */,
+				93F03D4D12624A67002F1226 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93F03D3412624468002F1226 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F03D3512624468002F1226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93F03D3912624469002F1226 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F03D3A12624469002F1226 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		93F03D3C12624469002F1226 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93F03D3D12624469002F1226 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93F03D4212624469002F1226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		93F03D4312624469002F1226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		93F03D4512624469002F1226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DataSourceChallenge_Prefix.pch;
+				INFOPLIST_FILE = "DataSourceChallenge-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = DataSourceChallenge;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93F03D4612624469002F1226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DataSourceChallenge_Prefix.pch;
+				INFOPLIST_FILE = "DataSourceChallenge-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = DataSourceChallenge;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93F03D2312624468002F1226 /* Build configuration list for PBXProject "DataSourceChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F03D4212624469002F1226 /* Debug */,
+				93F03D4312624469002F1226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F03D4412624469002F1226 /* Build configuration list for PBXNativeTarget "DataSourceChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F03D4512624469002F1226 /* Debug */,
+				93F03D4612624469002F1226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93F03D2012624468002F1226 /* Project object */;
+}
